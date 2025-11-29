@@ -2,7 +2,7 @@ import { RevealOnScroll } from "../RevealOnScroll"
 
 export const About = () => {
 
-    const techStack = ["React", "Tailwind", "AngularJS", "PHP", "Laravel","NodeJs", ];
+    const techStack = ["React", "Tailwind", "Bootstrap", "AngularJs", "PHP", "Laravel", "NodeJs", "Flutter", "Dart", "Katalon", "Python", "Java" ];
 
 
     return (
@@ -11,20 +11,20 @@ export const About = () => {
     <RevealOnScroll>
         <div className="max-w-6xl mx-auto px-4">
             <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">About Me</h2>
-            <div className="glass rounded-xl p-9 border-white/10 border hover:-translate-y-1 transition-all text-left">
+            <div className="glass rounded-xl p-9 transition-all text-left bg-[#0d0d0d]  border hover:-translate-y-1 transition-all mt-8 border-white/10 ">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
                     <div>
-                        <h4 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent text-center">Web & Mobile Developer</h4>
-                        <p className="text-gray-300 mb-6 text-center">
-                            Hi, I'm an Informatics Engineering student from Tarumanagara University with a strong passion for web and mobile development. I enjoy building clean, responsive, and user-friendly applications using modern and efficient technologies.
+                        <h4 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">FullStack Developer & Quality Assurance</h4>
+                        <p className="text-gray-300 mb-6">
+                            Hi, I'm an Informatics Engineering student from Tarumanagara University with a strong passion for web and mobile app development. I enjoy building clean, responsive, and user-friendly applications.
                             <br/><br/>
-                            Beyond development, I'm also interested in data science, especially machine learning and data-driven problem solving. I like exploring how data can uncover insights, support decisions, and create smarter digital experiences.
+                            I'm also interested in Quality Assurance creating test cases with manual or automation, checking feature behavior, and making sure the app works smoothly across devices. My experience in frontend, backend, and API integration helps me test and understand applications more effectively.
                             <br/><br/>
-                            Right now, I'm continuously improving my skills across both software development and data science to become a more versatile and impactful developer.
+                            Right now, I'm focusing on sharpening my skills in development and QA to become more versatile and impactful.
                         </p>
 
                         <div className="grid grid-cols-1 gap-6">
-                            <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                            <div className="rounded-xl hover:-translate-y-1 transition-all">
                                 <h3 className="text-xl font-bold mb-4">TechStack</h3>
                                 <div className="flex flex-wrap gap-2">
                                     {techStack.map((tech, key) => (
@@ -44,7 +44,7 @@ export const About = () => {
                 </div>
             </div>
 
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all mt-8">
+            <div className="p-6 rounded-xl border-white/10 bg-[#0d0d0d] border hover:-translate-y-1 transition-all mt-8">
                 <h3 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent"> Education </h3>
                 <ul className="list-disc list-inside text-gray-300 space-y-2 text-center">
                     <li><strong> B.S. In Informatics Engineering </strong> - Tarumanagara University (2023 - Present)</li>
@@ -52,7 +52,7 @@ export const About = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 text-left">
-                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                <div className="p-6 rounded-xl border-white/10 bg-[#0d0d0d] border hover:-translate-y-1 transition-all">
                     <h3 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent"> Work Experience</h3>
                     <div className="space-y-4 text-gray-300">
                         <div>
@@ -61,7 +61,7 @@ export const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                <div className="p-6 rounded-xl border-white/10 bg-[#0d0d0d] border hover:-translate-y-1 transition-all">
                     <h3 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent"> Organizational Experience</h3>
                     <div className="space-y-4 px-10 text-gray-300">
                         <div>
